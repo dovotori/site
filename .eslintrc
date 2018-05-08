@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+    "react",
+    "jsx-a11y"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": false,
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off"
+  }
+}
